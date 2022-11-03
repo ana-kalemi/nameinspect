@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>NameInspect</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700|Open+Sans:300,300i,400,400i,700,700i"
+    rel="stylesheet">
+  <!-- Bootstrap CSS File -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Libraries CSS Files -->
+  <link href="css/font-awesome.min.css" rel="stylesheet">
+  <link href="css/ionicons.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+  <style>
+    @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css");
+
+    #pricing .jumbotron {
+      padding: 0;
+      background: transparent;
+    }
+
+    .panel-title>a:before {
+      float: right !important;
+      font-family: FontAwesome;
+      content: "\f068";
+      padding-right: 5px;
+    }
+
+    .panel-title>a.collapsed:before {
+      float: right !important;
+      content: "\f067";
+    }
+
+    .panel-title>a:hover,
+    .panel-title>a:active,
+    .panel-title>a:focus {
+      text-decoration: none;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    .columns {
+      float: left;
+      width: 100%;
+      padding: 8px;
+    }
+
+    .col-lg-7>ul {
+      background: rgba(0, 0, 0, 0) none repeat scroll 0 0 !important;
+      list-style: outside none none;
+      padding: 0;
+    }
+
+    .material-icons {
+      float: left;
+      width: auto;
+      padding-right: 1%;
+    }
+
+    .price {
+      list-style-type: none;
+
+      margin: 0;
+      padding: 0;
+      -webkit-transition: 0.3s;
+      transition: 0.3s;
+    }
+
+    .price:hover {
+      box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2)
+    }
+
+    .price .header {
+      background-color: #111;
+      color: white;
+      font-size: 25px;
+    }
+
+    .price li {
+      border-bottom: 1px solid #b8b9bb;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .price .grey {
+      background-color: #eee;
+    }
+
+    @media (max-width: 600px) {
+      .columns {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Header -->
+  <header id="header">
+    <div class="container">
+      <div id="logo" class="pull-left">
+        <h1><a href="#intro" class="scrollto"><img src="images/logo.png" alt="logo.png"></a></h1>
+      </div>
+
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+          <li class="menu-active"><a href="#intro">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#FAQ">FAQ</a></li>
+          <li><a href="#team">Free Trial</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!--==========================
+	Intro Section
+	============================-->
+  <section id="intro">
+    <div class="intro-text">
+      <h2>Welcome to NameInspect</h2>
+      <p>Check your contacts against International Sanction lists before you engage!</p>
+      <a href="#about" class="btn-get-started scrollto">Get Started</a>
+    </div>
+  </section><!-- #intro -->
+
+  <main id="main">
+    <!--==========================
+		  About Us Section
+		============================-->
+    <section id="about" class="section-bg">
+      <div class="container-fluid">
+        <div class="section-header">
+          <h3 class="section-title">About Us</h3>
+          <span class="section-divider"></span>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6 about-img ">
+            <img src="images/abt.png" alt="About Us">
+          </div>
+          <div class="col-lg-6 content  ">
+            <p>
+              Clear View System Ltd develops state of the art Currency Exchange Software application for
+              Money Exchange Businesses (Money Service Businesses-MSBs, Bureau de Change-BDC,
+              Currency Exchangers). The flagship application is CurrencyXchanger 4D (CXR), which is the
+              most popular independent money exchange software in North America. CXR is used by 300
+              companies across 25 countries. It has been developed using 4D database engine and hence is
+              compatible with Mac and Windows environment.</p>
+            <p>Clear View Systems (CVS) was incorporated in 2003 in the province of British Columbia and is
+              a proud member of BBB with an A+ rating. CVS is an active members of GBB (Green Business
+              Bureau) and D&amp;B.</p>
+            <p>CVS works closely with the International Trade Commissioners (ITC) offices around the world
+              to promote our products to the world. For more information about CVS, please contact our
+              main website.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- #about -->
+
+    <!--==========================
+		“Why is NameInspect required?”
+		============================-->
+    <section id="about" class="section-bg require">
+      <div class="container-fluid">
+        <div class="section-header">
+          <h3 class="section-title">Why is NameInspect required?</h3>
+          <span class="section-divider"></span>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6 content ">
+            <p>
+              Security is gaining huge need in the modern world. People worry about security on their
+              journeys, when they make deals and sign contracts. Moreover, business people protect their
+              reputation and don’t want to be connected to persons and companies with bad reputation.</p>
+            <p>NameInspect has set itself the goal to give people and firms opportunity to check persons
+              and companies against the most common sanction lists. NameInspect is the solution that
+              helps people to check their connections against such sanction lists as PEP, OFAC SDN, OSFI
+              and others.
+            </p>
+          </div>
+          <div class="col-lg-6 about-img ">
+            <img src="images/nameinspect_required.png" alt="Why NameInspect is Required?">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- #“Why is NameInspect required?” -->
+
+    <!--==========================
+		  Features Section
+		============================-->
+    <section id="features">
+      <div class="container-fluid">
+        <div class="col-lg-12 offset-lg-4 sda">
+          <div class="section-header" data-wow-duration="1s">
+            <h3 class="section-title sa">Features</h3>
+            <span class="section-divider ssw"></span>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6">
+            <div class=" mg">
+              <img class="ana" src="images/features.png" alt="Features">
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <p class="">NameInspect allows companies that are using Salesforce to be able to verify
+              their database against known international sanction list to quickly on-board individual clients
+              and entities. This application helps users to do these checks on demand during on-boarding
+              and also automatically on a periodic basis. We will allow verification against the most widely
+              known sanction lists including OFAC SDN and Canada’s OSFI lists. This is a list of some of our
+              new sanction lists:
+            </p>
+            <ul style="color: #111;">
+              <li>OFAC SDN (U.S.A)</li>
+              <li>OSFI (Canada)</li>
+              <li>SEMA (Russia, Syria, Ukraine, Iran, Venezuela, Zimbabwe, Burma)</li>
+              <li>UNSC (United Nation’s Security Council) - offers original script for names (e.g. Arabic spelling)</li>
+              <li>JVCFO (Justice for Victims of Corrupt Foreign Officials)</li>
+              <li>Consolidated List of Financial Sanctions Targets in the UK</li>
+              <li>EU (European List)</li>
+              <li>AUSTRAC (Australia)</li>
+              <li>NZ Police</li>
+              <li>SECO Switzerland</li>
+              <li>International PEP lists</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- #features -->
+
+    <!--==========================
+		  Why Choose NameInspect Section
+		============================-->
+    <section id="advanced-features">
+      <div class="features-row">
+        <div class="container-fluid">
+          <div class="section-header">
+            <h3 class="section-title">Why Choose NameInspect?</h3>
+            <span class="section-divider"></span>
+          </div>
+          <div class="row">
+            <div class="col-lg-6 content ">
+              <ul style="color: #fff;line-height:2.4;">
+                <li>Detect suspicious persons and companies that you deal with</li>
+                <li>View detailed reports about entities found in sanction lists</li>
+                <li>Minimize reputational costs dealing with persons and companies you may trust</li>
+                <li>Avoid government penalties and possible criminal record for dealing with the wrong individuals,
+                  entities, or third-parties</li>
+                <li>Stay in compliance with AML &amp; CTF Regulations</li>
+              </ul>
+            </div>
+            <div class="col-lg-6 about-img ">
+              <img class="advanced-feature-img-left" src="images/whychoose.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- #Why Choose NameInspect  -->
+
+    <!--==========================
+		  Pricing Section
+		============================-->
+    <section id="pricing" class="section-bg" style="background: #fff">
+      <div class="container">
+        <div class="section-header">
+          <h3 class="section-title">Pricing</h3>
+          <span class="section-divider"></span>
+        </div>
+
+        <div class="col-md-12">
+          <div class="jumbotron">
+            <div class="row">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th>Total Checks</th>
+                    <th>Price (per year)</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><i class="ion-android-checkmark-circle"></i> &nbsp;&nbsp;1,500</td>
+                    <td><i class="ion-android-checkmark-circle"></i> &nbsp;&nbsp;$499.00</td>
+                  </tr>
+                  <tr>
+                    <td><i class="ion-android-checkmark-circle"></i> &nbsp;&nbsp;5,000</td>
+                    <td><i class="ion-android-checkmark-circle"></i> &nbsp;&nbsp;$999.00</td>
+                  </tr>
+                  <tr>
+                    <td><i class="ion-android-checkmark-circle"></i> 10,000</td>
+                    <td><i class="ion-android-checkmark-circle"></i> $2999.00</td>
+                  </tr>
+                  <tr>
+                    <td><i class="ion-android-checkmark-circle"></i> 10,000+</td>
+                    <td><a href="#contact" class="get-started-btn">Call</a></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Pricing -->
+
+
+    <!--==========================
+		  Frequently Asked Questions Section
+		============================-->
+    <section id="FAQ" class="section-bg sng">
+      <div class="section-header">
+        <div class="container ">
+          <h3 class="section-title">Frequently Asked Questions?</h3>
+          <span class="section-divider"></span>
+
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                  <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingOne">
+                      <h4 class="panel-title">
+                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseOne"
+                          aria-expanded="false" aria-controls="collapseOne">
+                          What is NameInspect?
+                        </a>
+                      </h4>
+                    </div>
+                    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel"
+                      aria-labelledby="headingOne">
+                      <div class="panel-body">
+
+
+                        <p>Name Inspect allows companies to verify and check the
+                          name of your customers, contacts, and prospects against 10 international sanction lists. It is
+                          against the law to do business with entities and individuals that are listed on the sanction
+                          lists. These sanction lists include: OFAC SFN, OSFI Canada, UK, UN, EU, Al-Qaida, NZ Police,
+                          Swiss SECO, AUSTRAC list.
+                        </p>
+
+                      </div>
+                    </div>
+                  </div>
+                  <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingTwo">
+                      <h4 class="panel-title">
+                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"
+                          aria-expanded="false" aria-controls="collapseTwo">
+                          Do I need NameInspect?</a>
+                      </h4>
+                    </div>
+                    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                      <div class="panel-body">
+                        <p>This is good for anyone who is in business with international clients. You can use this
+                          service
+                          to check your agents, leads, prospects, customers, partners, and employees. Some sectors
+                          and industries must (by law) always check the name of all parties they deal with. These laws
+                          are known as AML &amp; CTF compliance laws. In Canada every lawyer, accountant, real-estate
+                          agent, money service agent, banker, broker, insurance company, money transfer agent,
+                          currency exchanger, payday loan agent must check their customers against the OSFI and
+                          SEMA sanction lists. In the USA, the OFAC SDN must be checked. Unlike a credit bureau
+                          check, these checks do not require written consent from customers.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingThree">
+                      <h4 class="panel-title">
+                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree"
+                          aria-expanded="false" aria-controls="collapseThree">
+                          Is NameInspect Free?
+                        </a>
+                      </h4>
+                    </div>
+                    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel"
+                      aria-labelledby="headingThree">
+                      <div class="panel-body">
+                        <p>There is a 30 days free trial for the service. Once the trial is over, you can keep verifying
+                          up
+                          to 10 names/month for free. We will have more pricing options for people that require a pro
+                          version of Name Inspect. Contact us and we will let you know when our product is ready for
+                          prime time.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Pricing Section -->
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--==========================
+		  Free Trial Section
+		============================-->
+    <section id="team" class="section-bg">
+      <div class="container">
+        <div class="section-header">
+          <h3 class="section-title">Free Trial</h3>
+          <span class="section-divider"></span>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="member">
+              <p>Begin now with a free 30-day trial, having the option to continue verifying up to 10 names every month,
+                completely free of charge.</p>
+              <ul>
+                <li><i class="ion-android-checkmark-circle"></i>Protect yourself from doing business with prohibited
+                  entities</li>
+                <li><i class="ion-android-checkmark-circle"></i>Conduct background checks on the go</li>
+              </ul>
+              <a href="#" class="get-started-btn" style="
+									background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+									border: 2px solid;
+									border-radius: 20px;
+									color: #ffffff;
+									display: inline-block;
+									font-size: 14px;
+									font-weight: 400;
+									line-height: 26px;
+									padding: 6px 30px;
+									text-align: center;
+									transition: none 0s ease 0s ;">Apply Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- #Free Trial -->
+
+
+    <!--==========================
+		  Contact Us Section
+		============================-->
+    <section id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="contact-about">
+              <div style="width: 100%; text-align: center;"><img src="images/nameinspect_logo_small.png" alt="NameInspect for Salesforce" width="70%"></div>
+              <p>Clear View System Ltd develops state of the art Currency Exchange Software application for Money
+                Exchange Businesses (Money Service Businesses-MSBs, Bureau de Change-BDC, </p>
+              <div class="social-links">
+                <a href="https://twitter.com/currencyxchnger" target="_blank" class="twitter"><i
+                    class="fa fa-twitter"></i></a>
+                <a href="https://www.facebook.com/ClearViewSystemsLtd/" target="_blank"><i
+                    class="fa fa-facebook"></i></a>
+                <a href="https://in.linkedin.com/company/clearview-systems" target="_blank" class="linkedin"><i
+                    class="fa fa-linkedin"></i></a>
+                <a href="https://www.youtube.com/user/ClearViewSystemsLtd" target="_blank" class="youtube"><i
+                    class="fa fa-youtube"></i></a>
+              </div>
+              <div class="clear_logo">
+                <a><img src="images/clearview.png" alt="Clear View Systems Ltd"></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="info">
+              <div style="display: flex;">
+                <i class="ion-ios-location-outline"></i>
+                <p>1113-2012 Fullerton Ave., North Vancouver, BC, V7P 3E3, Canada</p>
+              </div>
+              <div style="display: flex;">
+                <i class="ion-ios-email-outline"></i>
+                <p>Email us through the form</p>
+              </div>
+              <div style="display: flex;">
+                <i class="ion-ios-telephone-outline"></i>
+                <p>Phone: +1 (519) 971 5149<br>
+                  Toll free: 1 888 390 0840</p>
+              </div>
+              <div class="snsd">
+                <a href="https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000FHCK0UAP"
+                  target="_blank"><img src="images/appxchange_partner.png" alt=""></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-12 col-xs-12">
+            <div class="form">
+              <div id="sendmessage">Your contact enquiry has been sent successfully. Thank you!</div>
+              <div id="errormessage"></div>
+              <form action="contact.php" method="post" role="form" class="contactForm">
+                <div class="form-row">
+                  <div class="form-group col-lg-6">
+                    <input type="text" name="fname" class="form-control" id="name" placeholder="Your First Name"
+                      data-rule="minlen:4" data-msg="Please enter at least 4 chars" required="">
+                    <div class="validation"></div>
+                  </div>
+                  <div class="form-group col-lg-6">
+                    <input type="text" name="lname" class="form-control" id="name" placeholder="Your Last Name"
+                      data-rule="minlen:4" data-msg="Please enter at least 4 chars" required="">
+                    <div class="validation"></div>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email"
+                    data-rule="email" data-msg="Please enter a valid email" required="">
+                  <div class="validation"></div>
+                </div>
+                <div class="form-group">
+                  <textarea class="form-control" name="message" rows="5" data-rule="required"
+                    data-msg="Please write something for us" placeholder="Message" required=""></textarea>
+                  <div class="validation"></div>
+                </div>
+                <div class="text-center"><input type="submit" name="submit" id="submitss" value="Send Message"></div>
+              </form>
+            </div>
+          </div>
+          <!--  <div class="col-md-12" style="text-align: center;">
+					<span class="snsd"><img src="images/img5.png" alt="" ></span>
+				</div>-->
+
+        </div>
+
+      </div>
+    </section>
+    <!-- #Contact Us-->
+
+  </main>
+
+  <!--==========================
+		Footer
+		============================-->
+  <footer id="footer">
+    <div class="container">
+      <div class="row" style="align-items: center;">
+        <div class="col-lg-6 text-lg-left text-center">
+          <div class="copyright">
+            &copy; Copyright <strong>NameInspect</strong>. All Rights Reserved
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="credits">
+            <nav class="footer-links text-lg-right text-center pt-2 pt-lg-0" style="margin-top: 12px;">
+              <a href="#intro" class="scrollto">Home</a>
+              <a href="#about" class="scrollto">About</a>
+              <a href="#">Privacy Policy</a>
+              <a href="#">Terms of Use</a>
+            </nav>
+          </div>
+          <div class="credits">
+            <nav class="footer-links text-lg-right text-center pt-2 pt-lg-0">
+              <a href="http://clearviewsys.com " class="scrollto" target="_blank">http://clearviewsys.com |</a>
+              <a href="http://clearkyc.com" class="scrollto" target="_blank" style="padding-left: 0;">
+                http://clearkyc.com</a>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </footer>
+</body>
+</html>
